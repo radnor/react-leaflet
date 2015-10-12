@@ -6,14 +6,18 @@ export BaseTileLayer from './BaseTileLayer';
 export CanvasTileLayer from './CanvasTileLayer';
 export Circle from './Circle';
 export CircleMarker from './CircleMarker';
+export ControlZoom from './ControlZoom';
 export FeatureGroup from './FeatureGroup';
 export GeoJson from './GeoJson';
+export GoogleLayer from './GoogleLayer';
 export ImageOverlay from './ImageOverlay';
 export LayerGroup from './LayerGroup';
 export Map from './Map';
 export MapComponent from './MapComponent';
+export MapControl from './MapControl';
 export MapLayer from './MapLayer';
 export Marker from './Marker';
+export MarkerClusterGroup from './MarkerClusterGroup';
 export MultiPolygon from './MultiPolygon';
 export MultiPolyline from './MultiPolyline';
 export Path from './Path';
@@ -29,4 +33,4 @@ export const setIconDefaultImagePath = path => {
   Leaflet.Icon.Default.imagePath = path;
 };
 
-setIconDefaultImagePath('//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.5/images');
+setIconDefaultImagePath('/Content/images');
